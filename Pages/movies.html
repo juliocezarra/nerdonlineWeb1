@@ -11,31 +11,31 @@
 </head>
 
 <body>
-    <div class="navigation">
-        <ul class="mx-auto">
-          <li class="me-3">
-            <a href="/">
-              <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
-            </a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/index.html">Promoções</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/games.html">Jogos</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/movies.html">Filmes</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/series.html">Séries</a>
-          </li>
-          <li class="me-3">
-            <input type="text" class="search" placeholder="Pesquisar">
-          </li>
-        </ul>
+    <div class="nav-body">
+      <div class="container justify-content-between mx-auto nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <a href="/">
+            <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="nav-btn mt-1">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a class="nav-link me-3" href="/Pages/games.html">Jogos</a>
+          <a class="nav-link me-3" href="/Pages/movies.html">Filmes</a>
+          <a class="nav-link me-3" href="/Pages/series.html">Séries</a>
+          <input type="text" class="search" placeholder="Pesquisar">
+        </div>
       </div>
-    <div class="container mx-auto justify-content-around">
+    </div>
+    <div class="container mx-auto justify-content-around mt-2">
         <img class="w-100" src="../assets/img/bannermovies.png" alt="bannermovies">
         <div class="container mx-auto bg-dark">
             <section class="p-container">
@@ -43,7 +43,7 @@
                     Lançamentos
                 </h1>
                 <hr class="w-50 mx-auto mb-3">
-                <div class="row">
+                <div class="row movie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/avatar.jpg" alt="noticiaimg">
                     </div>
@@ -56,7 +56,7 @@
                             </span>
                             <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto movie-description-block">
                                 <p class="new-description">
                                     Em Avatar: O Caminho da Água, sequência de Avatar (2009), após dez anos da primeira batalha de Pandora entre os Na'vi e os humanos, Jake Sully (Sam Worthington) vive pacificamente com sua família e sua tribo. Ele e Ney'tiri formaram uma família e estão fazendo de tudo para ficarem juntos, devido a problemas conjugais e papéis que cada um tem que exercer dentro da tribo. No entanto, eles devem sair de casa e explorar as regiões de Pandora, indo para o mar e fazendo pactos com outros Na'vi da região. Quando uma antiga ameaça ressurge, Jake deve travar uma guerra difícil contra os humanos novamente. Mesmo com dificuldade, Jake acaba fazendo novos aliados - alguns dos quais já vivem entre os Na'vi e outros com novos avatares. Mesmo com uma guerra em curso, Jake e Ney'tiri terão que fazer de tudo para ficarem juntos e cuidar da família e de sua tribo
                                 </p>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row movie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/terrifier.jpg" alt="noticiaimg">
                     </div>
@@ -78,7 +78,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span> <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto movie-description-block">
                                 <p class="new-description">
                                     Assim que foi lançado, o segundo filme do palhaço Art ganhou repercussão na internet após surgirem notícias de que pessoas estariam passando mal durante sessões do filme nos cinemas dos EUA. A sequência é escrita e dirigida por Damien Leone, que também comandou as filmagens do primeiro longa lançado em 2016. Apesar de ter um orçamento baixo de apenas US$ 250 mil, a obra já arrecadou cerca de US$ 5 milhões em bilheterias.
 
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row movie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/menu.jpg" alt="noticiaimg">
                     </div>
@@ -102,7 +102,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span> <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto movie-description-block">
 
                                 <p class="new-description">
                                     O Menu é do mesmo produtor dos sucessos Não Olhe para Cima (2021), Vice (2018) e A Grande Aposta (2015), vencedor do Oscar de Melhor Roteiro. O casal Margot (Anya Taylor-Joy) e Tyler (Nicholas Hoult) estava prestes a realizar o sonho de visitar um exclusivo restaurante, localizado em uma ilha remota. Lá, tudo é preparado por um excêntrico chef (Ralph Fiennes) e sua fiel equipe, em total sintonia para proporcionar a todos uma noite inesquecível. O pesadelo começa quando os poucos convidados percebem que no cardápio, além de pratos diferenciados, estão previstas surpresas assustadoras. É quando o casal e os demais presentes descobrem que estão diante de um sinistro jogo de sobrevivência.
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row movie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/fast.jpg" alt="noticiaimg">
                     </div>
@@ -125,7 +125,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span> <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto movie-description-block">
                                 <p class="new-description">
                                     Toretto (Vin Diesel) terá que reunir novamente sua equipe para enfrentar seu maior inimigo até agora. O grande antagonista do filme será interpretado por Jason Momoa – o astro prometeu que seu vilão será um homem sádico e com diversos problemas mal resolvidos do passado.
 
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row movie-mobile">
                     <div class="col-4">
                         <img class="movie-img" src="/assets/img/cat.jpg" alt="noticiaimg">
                     </div>
@@ -149,7 +149,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto movie-description-block">
                                 <p class="new-description">
                                     Em 2023, o felino favorito de todos, amante de leite, fanfarrão e desafiador do medo, retorna em Gato de Botas 2 – O Último Pedido.
 

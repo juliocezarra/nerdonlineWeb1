@@ -9,33 +9,33 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
   </head>
   <body>
-    
-    <div class="navigation">
-      <ul class="mx-auto">
-        <li class="me-3">
+
+    <div class="nav-body">
+      <div class="container justify-content-between mx-auto nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
           <a href="/">
             <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
           </a>
-        </li>
-        <li class="me-3">
-          <a class="nav-link" href="/index.html">Promoções</a>
-        </li>
-        <li class="me-3">
-          <a class="nav-link" href="/Pages/games.html">Jogos</a>
-        </li>
-        <li class="me-3">
-          <a class="nav-link" href="/Pages/movies.html">Filmes</a>
-        </li>
-        <li class="me-3">
-          <a class="nav-link" href="/Pages/series.html">Séries</a>
-        </li>
-        <li class="me-3">
+        </div>
+        <div class="nav-btn mt-1">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a class="nav-link me-3" href="/Pages/games.html">Jogos</a>
+          <a class="nav-link me-3" href="/Pages/movies.html">Filmes</a>
+          <a class="nav-link me-3" href="/Pages/series.html">Séries</a>
           <input type="text" class="search" placeholder="Pesquisar">
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
 
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-3">
       <div class="row W-100 justify-content-between">
         <div class="col-4">
           <img class="img-main" src="assets/img/fort.png" alt="fortnite">
@@ -56,11 +56,11 @@
         </h1>
         <hr  class="w-50 mx-auto mb-3">
         <div class="row"> 
-          <div class="col-4">
+          <div class="col-4 row-mobile">
             <img class="img-not" src="/assets/img/NOTI1.png" alt="noticiaimg1">
           </div>
           <div class="col-8 my-auto">
-            <div class="ps-2">
+            <div class="ps-2 my-auto">
               <h1 class="new-title">Um dos Jonas Brothers poderia</BR> ter sido Homem-Aranha no lugar de Andrew Garfield</h1> 
               
               <span class="new-info">
@@ -78,11 +78,11 @@
         </div>
         <hr class="my-3 mx-3">
         <div class="row"> 
-          <div class="col-4">
+          <div class="col-4 row-mobile">
             <img class="img-not" src="/assets/img/noti2.png" alt="noticiaimg2">
           </div>
           <div class="col-8 my-auto">
-            <div class="ps-2">
+            <div class="ps-2 my-auto">
               <h1 class="new-title">Shazam! Fúria dos Deuses terá mais inspiração na mitologia grega do que nos quadrinhos</h1> 
               
               <span class="new-info">
@@ -100,11 +100,11 @@
         </div>
         <hr class="my-3 mx-3">
         <div class="row"> 
-          <div class="col-4">
+          <div class="col-4 row-mobile">
             <img class="img-not" src="/assets/img/noti3.png" alt="noticiaimg3">
           </div>
           <div class="col-8 my-auto">
-            <div class="ps-2">
+            <div class="ps-2 my-auto">
               <h1 class="new-title">Elon Musk contrata hacker do PS3 e iPhone para consertar ferramenta de busca do Twitter</h1> 
               
               <span class="new-info">

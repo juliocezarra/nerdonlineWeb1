@@ -11,31 +11,31 @@
 </head>
 
 <body>
-    <div class="navigation">
-        <ul class="mx-auto">
-          <li class="me-3">
-            <a href="/">
-              <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
-            </a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/index.html">Promoções</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/games.html">Jogos</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/movies.html">Filmes</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/series.html">Séries</a>
-          </li>
-          <li class="me-3">
-            <input type="text" class="search" placeholder="Pesquisar">
-          </li>
-        </ul>
+    <div class="nav-body">
+      <div class="container justify-content-between mx-auto nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <a href="/">
+            <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="nav-btn mt-1">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a class="nav-link me-3" href="/Pages/games.html">Jogos</a>
+          <a class="nav-link me-3" href="/Pages/movies.html">Filmes</a>
+          <a class="nav-link me-3" href="/Pages/series.html">Séries</a>
+          <input type="text" class="search" placeholder="Pesquisar">
+        </div>
       </div>
-    <div class="container mx-auto justify-content-around">
+    </div>
+    <div class="container mx-auto justify-content-around mt-2">
         <img class="w-100" src="../assets/img/bannergames.png" alt="bannergames">
         <div class="container mx-auto bg-dark">
             <section class="p-container">
@@ -44,8 +44,8 @@
                     Jogos em destaque
                 </h1>
                 <br> <br>
-                <div class="row mx-auto justify-content-between">
-                    <div class="cow-4 img-hover">
+                <div class="row mx-auto justify-content-between justify-content-center">
+                    <div class="col-4 img-hover">
                         <a href="#">
                             <img class="img-game" src="../assets/img/fort.png" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -53,7 +53,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="cow-4 img-hover">
+                    <div class="col-4 img-hover my-2-mb">
                         <a href="#">
                             <img class="img-game" src="../assets/img/finalfantasia.jpg" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -61,7 +61,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="cow-4 img-hover">
+                    <div class="col-4 img-hover">
                         <a href="#">
                             <img class="img-game" src="../assets/img/world.jpg" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -75,8 +75,8 @@
                     Melhores com amigos
                 </h1>
                 <br>
-                <div class="row mx-auto justify-content-between">
-                    <div class="cow-4  img-hover">
+                <div class="row mx-auto justify-content-between justify-content-center">
+                    <div class="col-4  img-hover">
                         <a href="#">
                             <img class="img-game" src="../assets/img/valorant.jpeg" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -84,7 +84,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="cow-4 img-hover">
+                    <div class="col-4 img-hover my-2-mb">
                         <a href="#">
                             <img class="img-game" src="../assets/img/league.jpg" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -92,7 +92,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="cow-4 img-hover">
+                    <div class="col-4 img-hover">
                         <a href="#">
                             <img class="img-game" src="../assets/img/minecraft.png" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -106,8 +106,8 @@
                     Melhores single player
                 </h1>
                 <br>
-                <div class="row justify-content-between">
-                    <div class="cow-4 img-hover">
+                <div class="row justify-content-between justify-content-center">
+                    <div class="col-4 img-hover">
                         <a href="#">
                             <img class="img-game" src="../assets/img/elder.jpg" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -115,7 +115,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="cow-4 img-hover">
+                    <div class="col-4 img-hover my-2-mb">
                         <a href="#">
                             <img class="img-game" src="../assets/img/godofwar.jpg" alt="imagemdojogo">
                             <span class="img-hover-text ">
@@ -123,7 +123,7 @@
                             </span>
                         </a>
                     </div>
-                    <div class="cow-4 img-hover">
+                    <div class="col-4 img-hover">
                         <a href="#">
                             <img class="img-game" src="../assets/img/red.jpeg" alt="imagemdojogo">
                             <span class="img-hover-text ">

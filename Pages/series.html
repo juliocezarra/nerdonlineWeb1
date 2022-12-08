@@ -11,31 +11,31 @@
 </head>
 
 <body>
-    <div class="navigation">
-        <ul class="mx-auto">
-          <li class="me-3">
-            <a href="/">
-              <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
-            </a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/index.html">Promoções</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/games.html">Jogos</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/movies.html">Filmes</a>
-          </li>
-          <li class="me-3">
-            <a class="nav-link" href="/Pages/series.html">Séries</a>
-          </li>
-          <li class="me-3">
-            <input type="text" class="search" placeholder="Pesquisar">
-          </li>
-        </ul>
+    <div class="nav-body">
+      <div class="container justify-content-between mx-auto nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <a href="/">
+            <img class="logo-nav" src="../assets/img/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="nav-btn mt-1">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a class="nav-link me-3" href="/Pages/games.html">Jogos</a>
+          <a class="nav-link me-3" href="/Pages/movies.html">Filmes</a>
+          <a class="nav-link me-3" href="/Pages/series.html">Séries</a>
+          <input type="text" class="search" placeholder="Pesquisar">
+        </div>
       </div>
-    <div class="container mx-auto justify-content-around">
+    </div>
+    <div class="container mx-auto justify-content-around mt-2">
         <img class="w-100" src="../assets/img/bannertwd.png" alt="bannermovies">
         <div class="container mx-auto bg-dark">
             <section class="p-container">
@@ -43,7 +43,7 @@
                     Séries mais assistidas
                 </h1>
                 <hr class="w-50 mx-auto mb-3">
-                <div class="row">
+                <div class="row serie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/elite.jpg" alt="elite">
                     </div>
@@ -56,7 +56,7 @@
                             </span>
                             <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto serie-description-block">
                                 <p class="new-description">
                                     Assim que três alunos do ensino público são transferidos para Las Encinas, a melhor e mais exclusiva escola da Espanha, um misterioso assassinato acontece. Agora resta saber: quem está por trás do crime? O assassino é um dos novatos? Ou há algo mais sombrio se escondendo nos corredores?
                                 </p>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row serie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/1899.jpg" alt="noticiaimg">
                     </div>
@@ -78,7 +78,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span> <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto serie-description-block">
                                 <p class="new-description">
                                     O ano é 1899. Um navio a vapor deixa o velho continente rumo à América. De diferentes origens europeias, os passageiros compartilham as mesmas esperanças e sonhos para o novo século em uma terra distante. Mas quando outro navio de imigrantes surge à deriva, a jornada do grupo toma um rumo inesperado.
                                 </p>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row serie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/crown.jpg" alt="noticiaimg">
                     </div>
@@ -100,7 +100,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span> <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto serie-description-block">
 
                                 <p class="new-description">
                                     The Crown acompanha a ascensão de Elizabeth II ao trono inglês após a morte de seu pai em 1952. O drama explora as complexidades por traz da monarquia da Inglaterra e apresenta importantes eventos históricos do século passado
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row serie-mobile">
                     <div class="col-4">
                         <img class="img-movie" src="/assets/img/wandinha.jpg" alt="noticiaimg">
                     </div>
@@ -123,7 +123,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span> <br><br>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto serie-description-block">
                                 <p class="new-description">
                                     Baseada na série clássica da Família Addams, Wednesday acompanha a infame personagem homônima enquanto ela investiga uma série de assassinatos sobrenaturais pela cidade.
                                 </p>
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <hr class="my-3 mx-3">
-                <div class="row">
+                <div class="row serie-mobile">
                     <div class="col-4">
                         <img class="movie-img" src="/assets/img/wkd.jpg" alt="noticiaimg">
                     </div>
@@ -145,7 +145,7 @@
                                 Por: Julio às 21:30 - 28/11/2022  
                             </span>
                             <span class="movie-sub ">Sinopse:</span>
-                            <div class="row justify-content-around my-auto">
+                            <div class="row justify-content-around my-auto serie-description-block">
                                 <p class="new-description">
                                     Depois que um apocalipse zumbi se espalha pela cidade de Cynthiana, no Kentucky, o policial Rick Grimes (Andrew Lincoln) se une aos outros sobreviventes para combater os mortos-vivos e tentar encontrar uma solução para a situação.
                                 </p>
